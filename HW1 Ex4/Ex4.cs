@@ -14,22 +14,14 @@
 
         Console.Write("Insert number 3 : ");
         int z = Convert.ToInt32(Console.ReadLine());
-
         
         if (x>=y && x>=z) {           
-                Console.WriteLine("-> " +x);
+            Console.WriteLine("-> " +x);
         }
         else if (y>=x && y>=z)  { 
-                Console.WriteLine("-> " +y);
-            }
-        
-        else if (z>=x && z>=y)  { 
-                Console.WriteLine("-> " +z);
-            }
-        else{
-           
-            Console.WriteLine("Numbers are equal");
+            Console.WriteLine("-> " +y);
         }
-    
-
-  
+        else{ 
+            Console.WriteLine("-> " +z);
+        }
+       
