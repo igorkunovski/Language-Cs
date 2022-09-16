@@ -22,7 +22,7 @@ int[,,] cube = new int[row, column, height];
 
 int[,,] filledArr = FillThreeDimIntArray(cube);
 PrintThreeDimArray(filledArr);
-// PrintOneDimArray(usedNumbers);
+PrintOneDimArray(usedNumbers);
 
 int[,,] FillThreeDimIntArray(int[,,] array)
 {
