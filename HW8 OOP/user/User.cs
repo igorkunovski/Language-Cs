@@ -1,12 +1,12 @@
 using HW8_OOP.zoo;
 using HW8_OOP.config;
-using HW8_OOP.zoo;
+
 
 namespace HW8_OOP.user
 {
     public class User
     {
-        Zoo zoo;
+        Zoo? zoo;
         private int userChoice;
 
        SupportMetods sm = new SupportMetods();
@@ -32,6 +32,5 @@ namespace HW8_OOP.user
             }
              
         }
-
     }
 }

@@ -37,6 +37,5 @@ namespace HW8_OOP.animal
                 ", weight=" + this.GetWeight() + " kg" +
                 ", eyeColor=" + this.GetEyeColor();
     }
-
     }
 }

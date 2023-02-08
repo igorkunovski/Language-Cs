@@ -178,5 +178,3 @@ namespace HW8_OOP.config
         
     }
 }
-
-        
